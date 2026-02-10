@@ -31,7 +31,7 @@ jobs:
             # 2. 기존 컨테이너 중지 (없어도 에러 안 나게 처리)
             docker stop cntr-springboot || true
 
-            # 3. 기존 컨테이너 삭제 (이전 버전 정리)
+            # 3. 기존 컨테이너 삭제 (이전 버전 정리)lllll
             docker rm cntr-springboot || true
 
             # 4. 새 컨테이너 실행
